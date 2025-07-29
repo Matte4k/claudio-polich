@@ -34,10 +34,10 @@ export default function Navigation() {
               Sobre Mi
             </Link>
             <Link
-              href="/ejes-de-gobierno"
+              href="/mis-propuestas"
               className="font-geist-medium text-gray-700 hover:text-red-600 transition-colors"
             >
-              Ejes de Gobierno
+              Mis Propuestas
             </Link>
             <a
               href="https://www.bit.ly/VamosCtesCapital"
@@ -45,7 +45,7 @@ export default function Navigation() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Contacto
+              Sumate
             </a>
           </div>
 
@@ -80,11 +80,11 @@ export default function Navigation() {
               Sobre Mi
             </Link>
             <Link
-              href="/ejes-de-gobierno"
+              href="/mis-propuestas"
               className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-red-600"
               onClick={() => setIsOpen(false)}
             >
-              Ejes de Gobierno
+              Mis Propuestas
             </Link>
             <a
               href="https://www.bit.ly/VamosCtesCapital"
@@ -93,7 +93,7 @@ export default function Navigation() {
               className="block mx-3 my-2 text-center btn-primary"
               onClick={() => setIsOpen(false)}
             >
-              Contacto
+              Sumate
             </a>
           </div>
         </div>

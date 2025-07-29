@@ -17,6 +17,7 @@ interface CarouselProps {
   image2?: string;
   image3?: string;
   image4?: string;
+  image5?: string;
 }
 
 export default function Carousel({
@@ -24,47 +25,49 @@ export default function Carousel({
   image2,
   image3,
   image4,
+  image5,
 }: CarouselProps) {
   const experienceData: CarouselItem[] = [
     {
       id: 1,
-      title: "Concejal de la Ciudad de Corrientes",
+      title: "Director de Transporte de la Provincia",
       description:
-        "Representando los intereses de los ciudadanos en el Concejo Deliberante, impulsando ordenanzas para el desarrollo urbano y social.",
-      year: "2015-2019",
-      image:
-        image1 ||
-        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
+        "Planificando, dirigiendo y coordinando las actividades de transporte para los correntinos.",
+      year: "2005",
+      image: image1 || "/img/inicios-polich.jpg",
     },
     {
       id: 2,
-      title: "Secretario de Obras Públicas",
+      title: "Concejal de la Ciudad de Corrientes",
       description:
-        "Supervisando proyectos de infraestructura que mejoraron la calidad de vida de miles de correntinos.",
-      year: "2019-2021",
-      image:
-        image2 ||
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop",
+        "Representando los intereses de los ciudadanos en el Concejo Deliberante, impulsando ordenanzas para el desarrollo urbano y social.",
+      year: "2005-2013",
+      image: image2 || "/img/concejal.jpg",
     },
     {
       id: 3,
-      title: "Diputado Provincial",
+      title:
+        "Subsecretario de Entes Descentralizados del Ministerio de Obras Públicas",
       description:
-        "Defendiendo los intereses de Corrientes en la Legislatura Provincial, promoviendo leyes de desarrollo económico y social.",
-      year: "2021-2023",
-      image:
-        image3 ||
-        "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop",
+        "Trabajando en proyectos destinados a mejorar la calidad de vida de los correntinos.",
+      year: "2014-2019",
+      image: image3 || "/img/subse-obras-publicas.jpg",
     },
     {
       id: 4,
-      title: "Presidente de Comisión de Hacienda",
+      title: "Ministro de Obras y Servicios Públicos",
       description:
-        "Liderando la gestión presupuestaria y fiscal, asegurando el uso eficiente de los recursos públicos.",
-      year: "2022-2023",
-      image:
-        image4 ||
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop",
+        "Supervisando proyectos de infraestructura que mejoraron la calidad de vida de miles de correntinos.",
+      year: "2019-2025",
+      image: image4 || "/img/ministro-obras-publicas.jpg",
+    },
+    {
+      id: 5,
+      title: "Presidente del Comité Capital de la UCR",
+      description:
+        "Liderando la gestión presupuestaria, asegurando el uso eficiente de los recursos.",
+      year: "2022-2025",
+      image: image5 || "/img/comite-capital.jpg",
     },
   ];
 

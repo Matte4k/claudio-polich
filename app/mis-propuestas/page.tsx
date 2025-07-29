@@ -16,9 +16,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Ejes de Gobierno - Claudio Polich",
+  title: "Mis Propuestas - Claudio Polich",
   description:
-    "Conocé las propuestas y ejes de gobierno de Claudio Polich para transformar la Ciudad de Corrientes en una metrópoli moderna, inclusiva y próspera.",
+    "Conocé las propuestas de Claudio Polich para transformar la Ciudad de Corrientes en una metrópoli moderna, inclusiva y próspera.",
 };
 
 export default function EjesDeGobiernoPage() {
@@ -29,7 +29,7 @@ export default function EjesDeGobiernoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-montserrat-black-italic text-4xl md:text-6xl mb-6">
-              Ejes de Gobierno
+              Mis Propuestas
             </h1>
             <p className="font-geist-medium text-xl md:text-2xl text-red-100 max-w-4xl mx-auto">
               Un plan integral para transformar Corrientes en una ciudad del

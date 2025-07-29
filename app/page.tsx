@@ -28,7 +28,10 @@ export default function HomePage() {
                   Conocé mi historia
                   <ArrowRight className="ml-2" size={20} />
                 </Link>
-                <Link href="/ejes-de-gobierno" className="btn-secondary">
+                <Link
+                  href="/mis-propuestas"
+                  className="btn-secondary inline-flex items-center justify-center"
+                >
                   Ver propuestas
                 </Link>
               </div>
@@ -61,10 +64,11 @@ export default function HomePage() {
             </p>
           </div>
           <Carousel
-            image1="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop"
-            image2="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop"
-            image3="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop"
-            image4="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop"
+            image1="/img/inicios-polich.jpg"
+            image2="/img/concejal.jpg"
+            image3="/img/subse-obras-publicas.jpg"
+            image4="/img/ministro-obras-publicas.jpg"
+            image5="/img/comite-capital.jpg"
           />
         </div>
       </section>
@@ -74,7 +78,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-montserrat-black-italic text-4xl md:text-5xl text-gray-900 mb-6">
-              Ejes de Gobierno
+              Mis Propuestas
             </h2>
             <p className="font-geist-medium text-xl text-gray-600 max-w-3xl mx-auto">
               Cuatro pilares fundamentales para transformar Corrientes en una
@@ -138,7 +142,7 @@ export default function HomePage() {
 
           <div className="text-center mt-12">
             <Link
-              href="/ejes-de-gobierno"
+              href="/mis-propuestas"
               className="btn-primary inline-flex items-center"
             >
               Ver propuestas completas
@@ -155,7 +159,7 @@ export default function HomePage() {
             Construyamos juntos el futuro de Corrientes
           </h2>
           <p className="font-geist-medium text-xl mb-8 text-red-100">
-            Tu opinión es importante. Contáctame para compartir tus ideas,
+            Tu opinión es importante. Contactanos para compartir tus ideas,
             inquietudes o propuestas para nuestra ciudad.
           </p>
           <a
@@ -164,7 +168,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="btn-secondary inline-flex items-center text-lg px-8 py-4"
           >
-            Contactar ahora
+            Sumate al proyecto
             <ArrowRight className="ml-2" size={24} />
           </a>
         </div>

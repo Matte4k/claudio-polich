@@ -96,8 +96,8 @@ export default function SobreMiPage() {
             </div>
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=500&fit=crop"
-                alt="Claudio Polich en su graduación"
+                src="/img/polich-hero.jpg"
+                alt="Claudio Polich"
                 width={400}
                 height={500}
                 className="rounded-2xl shadow-2xl w-full"
@@ -113,7 +113,7 @@ export default function SobreMiPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-last md:order-first">
               <Image
-                src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=500&h=400&fit=crop"
+                src="/img/familia-polich.jpg"
                 alt="Claudio Polich con su familia"
                 width={500}
                 height={400}
@@ -132,11 +132,11 @@ export default function SobreMiPage() {
                   />
                   <div>
                     <h3 className="font-geist-bold text-lg text-gray-900 mb-2">
-                      María Elena, mi compañera de vida
+                      María Herminia, mi compañera de vida
                     </h3>
                     <p className="font-geist-medium text-gray-600">
                       Hace 15 años que compartimos sueños, proyectos y el amor
-                      por nuestra ciudad. Ella es maestra y comparte mi vocación
+                      por nuestra ciudad. Ella es jueza y comparte mi vocación
                       de servicio a la comunidad.
                     </p>
                   </div>
@@ -149,12 +149,12 @@ export default function SobreMiPage() {
                   />
                   <div>
                     <h3 className="font-geist-bold text-lg text-gray-900 mb-2">
-                      Nuestros hijos: Valentina y Mateo
+                      Nuestros hijos: Pedro y Mateo
                     </h3>
                     <p className="font-geist-medium text-gray-600">
-                      Valentina tiene 12 años y Mateo 9. Ellos son mi mayor
+                      Pedro tiene 25 años y Mateo 20. Ellos son mi mayor
                       motivación para trabajar por una Corrientes mejor, donde
-                      puedan crecer con oportunidades y en un ambiente seguro.
+                      puedan vivir con oportunidades y en un ambiente seguro.
                     </p>
                   </div>
                 </div>
@@ -191,26 +191,25 @@ export default function SobreMiPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="bg-blue-600 text-white px-4 py-2 rounded-full inline-block mb-4">
-                  <span className="font-geist-bold">2010 - 2015</span>
+                  <span className="font-geist-bold">2005</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
                   Primeros pasos en la política
                 </h3>
                 <p className="font-geist-medium text-gray-600 mb-4">
-                  Comencé mi carrera política como asesor en el Concejo
-                  Deliberante, donde aprendí el funcionamiento del gobierno
-                  local y la importancia de escuchar a los vecinos.
+                  Comencé mi carrera política como Director de Transporte de la
+                  Provincia, donde aprendí el funcionamiento del gobierno local
+                  y la importancia de escuchar a los vecinos.
                 </p>
                 <p className="font-geist-medium text-gray-600">
                   Durante este período, participé activamente en la redacción de
-                  ordenanzas relacionadas con el desarrollo urbano y la
-                  participación ciudadana.
+                  ordenanzas relacionadas con el transporte urbano.
                 </p>
               </div>
               <div>
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face"
-                  alt="Claudio Polich como asesor"
+                  src="/img/inicios-polich.jpg"
+                  alt="Claudio Polich como Director"
                   width={400}
                   height={300}
                   className="rounded-xl shadow-lg w-full"
@@ -222,7 +221,7 @@ export default function SobreMiPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-last md:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop"
+                  src="/img/concejal.jpg"
                   alt="Claudio Polich como concejal"
                   width={400}
                   height={300}
@@ -231,16 +230,16 @@ export default function SobreMiPage() {
               </div>
               <div>
                 <div className="bg-green-600 text-white px-4 py-2 rounded-full inline-block mb-4">
-                  <span className="font-geist-bold">2015 - 2019</span>
+                  <span className="font-geist-bold">2005 - 2013</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
                   Concejal de la Ciudad
                 </h3>
                 <p className="font-geist-medium text-gray-600 mb-4">
-                  Fui elegido concejal por primera vez, representando al
-                  distrito centro de la ciudad. Durante mi mandato, impulsé más
-                  de 30 ordenanzas relacionadas con el desarrollo urbano, la
-                  seguridad y los servicios públicos.
+                  Fui elegido concejal por primera vez en 2005, y reelecto en
+                  2009, representando al distrito centro de la ciudad. Durante
+                  mi mandato, impulsé más de 30 ordenanzas relacionadas con el
+                  desarrollo urbano, la seguridad y los servicios públicos.
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-geist-bold text-gray-900 mb-2">
@@ -259,15 +258,17 @@ export default function SobreMiPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="bg-purple-600 text-white px-4 py-2 rounded-full inline-block mb-4">
-                  <span className="font-geist-bold">2019 - 2021</span>
+                  <span className="font-geist-bold">2014 - 2019</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
-                  Secretario de Obras Públicas
+                  Subsecretario de Entes Descentralizados del Ministerio de
+                  Obras Públicas
                 </h3>
                 <p className="font-geist-medium text-gray-600 mb-4">
-                  El intendente me convocó para liderar la Secretaría de Obras
-                  Públicas, donde pude aplicar mi experiencia en gestión para
-                  mejorar la infraestructura de la ciudad.
+                  El Ministro me convocó para liderar la Subsecretaría de Entes
+                  Descentralizados del Ministerio de Obras Públicas, donde pude
+                  aplicar mi experiencia en gestión para mejorar la
+                  infraestructura de la ciudad.
                 </p>
                 <p className="font-geist-medium text-gray-600">
                   Supervisé la construcción de más de 50 cuadras de pavimento,
@@ -277,7 +278,7 @@ export default function SobreMiPage() {
               </div>
               <div>
                 <Image
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop"
+                  src="/img/subse-obras-publicas.jpg"
                   alt="Claudio Polich en obras públicas"
                   width={400}
                   height={300}
@@ -290,8 +291,8 @@ export default function SobreMiPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-last md:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop"
-                  alt="Claudio Polich como diputado"
+                  src="/img/ministro-obras-publicas.jpg"
+                  alt="Claudio Polich como Ministro"
                   width={400}
                   height={300}
                   className="rounded-xl shadow-lg w-full"
@@ -299,15 +300,15 @@ export default function SobreMiPage() {
               </div>
               <div>
                 <div className="bg-red-600 text-white px-4 py-2 rounded-full inline-block mb-4">
-                  <span className="font-geist-bold">2021 - 2023</span>
+                  <span className="font-geist-bold">2019 - 2025</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
-                  Diputado Provincial
+                  Ministro de Obras Públicas
                 </h3>
                 <p className="font-geist-medium text-gray-600 mb-4">
-                  Los correntinos me eligieron como su representante en la
-                  Legislatura Provincial, donde defendí los intereses de nuestra
-                  ciudad y promové leyes de desarrollo económico y social.
+                  El Gobernador me convocó para liderar el Ministerio de Obras
+                  Públicas, donde pude aplicar mi experiencia en gestión para
+                  mejorar la infraestructura de la ciudad.
                 </p>
                 <div className="flex items-start">
                   <Award
@@ -315,10 +316,43 @@ export default function SobreMiPage() {
                     size={20}
                   />
                   <p className="font-geist-medium text-gray-600">
-                    Fui designado Presidente de la Comisión de Hacienda y
-                    Presupuesto, donde lideré la gestión fiscal de la provincia.
+                    Supervisé la construcción de más de 50 cuadras de pavimento,
+                    la renovación de plazas y la modernización del sistema de
+                    alumbrado público.
                   </p>
                 </div>
+              </div>
+            </div>
+
+            {/* Timeline Item 5 */}
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <div className="bg-amber-500 text-white px-4 py-2 rounded-full inline-block mb-4">
+                  <span className="font-geist-bold">2022 - 2025</span>
+                </div>
+                <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
+                  Presidente del Comité Capital de la Unión Cívica Radical
+                </h3>
+                <p className="font-geist-medium text-gray-600 mb-4">
+                  El Ministro me convocó para liderar la Subsecretaría de Entes
+                  Descentralizados del Ministerio de Obras Públicas, donde pude
+                  aplicar mi experiencia en gestión para mejorar la
+                  infraestructura de la ciudad.
+                </p>
+                <p className="font-geist-medium text-gray-600">
+                  Supervisé la construcción de más de 50 cuadras de pavimento,
+                  la renovación de plazas y la modernización del sistema de
+                  alumbrado público.
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/img/comite-capital.jpg"
+                  alt="Claudio Polich como Presidente del Comité Capital"
+                  width={400}
+                  height={300}
+                  className="rounded-xl shadow-lg w-full"
+                />
               </div>
             </div>
           </div>
@@ -331,14 +365,14 @@ export default function SobreMiPage() {
           <h2 className="font-montserrat-black-italic text-4xl md:text-5xl mb-8">
             Mi Compromiso con Corrientes
           </h2>
-          <p className="font-geist-medium text-xl mb-8 text-blue-100 leading-relaxed">
+          <p className="font-geist-medium text-xl mb-8 text-red-100 leading-relaxed">
             &quot;Cada experiencia vivida, cada desafío enfrentado y cada logro
             alcanzado me han preparado para este momento: liderar Corrientes
             hacia un futuro de prosperidad, inclusión y desarrollo
             sostenible.&quot;
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-            <p className="font-geist-medium text-lg text-blue-100">
+            <p className="font-geist-medium text-lg text-red-100">
               Mi historia es la historia de muchos correntinos: trabajo,
               familia, compromiso y amor por nuestra tierra. Juntos podemos
               escribir el próximo capítulo de nuestra ciudad.

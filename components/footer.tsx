@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, MapPin } from "lucide-react";
 import { PiTiktokLogoBold } from "react-icons/pi";
 import { BsTwitterX } from "react-icons/bs";
 
@@ -65,10 +65,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/ejes-de-gobierno"
+                  href="/mis-propuestas"
                   className="font-geist-medium text-gray-300 hover:text-white transition-colors"
                 >
-                  Ejes de Gobierno
+                  Mis Propuestas
                 </Link>
               </li>
             </ul>
@@ -78,21 +78,9 @@ export default function Footer() {
             <h4 className="font-geist-bold text-lg mb-4">Contacto</h4>
             <div className="space-y-3">
               <div className="flex items-center">
-                <Mail size={18} className="mr-3 text-red-400" />
-                <span className="font-geist-medium text-gray-300">
-                  contacto@claudiopolich.com
-                </span>
-              </div>
-              <div className="flex items-center">
-                <Phone size={18} className="mr-3 text-red-400" />
-                <span className="font-geist-medium text-gray-300">
-                  +54 379 XXX-XXXX
-                </span>
-              </div>
-              <div className="flex items-center">
                 <MapPin size={18} className="mr-3 text-red-400" />
                 <span className="font-geist-medium text-gray-300">
-                  Corrientes, Argentina
+                  25 de Mayo 1232, Corrientes, Argentina
                 </span>
               </div>
             </div>
