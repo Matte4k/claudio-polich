@@ -58,7 +58,7 @@ export default function EjesDeGobiernoPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <div className="flex items-center mb-6">
-                <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mr-4">
+                <div className="bg-[#00a7e7] w-16 h-16 rounded-full flex items-center justify-center mr-4">
                   <Building className="text-white" size={32} />
                 </div>
                 <h2 className="font-montserrat-black-italic text-4xl md:text-5xl text-gray-900">
@@ -84,7 +84,7 @@ export default function EjesDeGobiernoPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Road className="text-blue-600 mb-4" size={32} />
+              <Road className="text-[#00a7e7] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Infraestructura Vial
               </h3>
@@ -97,7 +97,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Home className="text-blue-600 mb-4" size={32} />
+              <Home className="text-[#00a7e7] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Vivienda Social
               </h3>
@@ -110,7 +110,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Leaf className="text-blue-600 mb-4" size={32} />
+              <Leaf className="text-[#00a7e7] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Espacios Verdes
               </h3>
@@ -140,7 +140,7 @@ export default function EjesDeGobiernoPage() {
             </div>
             <div>
               <div className="flex items-center mb-6">
-                <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mr-4">
+                <div className="bg-[#78be20] w-16 h-16 rounded-full flex items-center justify-center mr-4">
                   <Users className="text-white" size={32} />
                 </div>
                 <h2 className="font-montserrat-black-italic text-4xl md:text-5xl text-gray-900">
@@ -156,8 +156,8 @@ export default function EjesDeGobiernoPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-600">
-              <GraduationCap className="text-green-600 mb-4" size={32} />
+            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-[#78be20]">
+              <GraduationCap className="text-[#78be20] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Educación de Calidad
               </h3>
@@ -169,8 +169,8 @@ export default function EjesDeGobiernoPage() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-600">
-              <Briefcase className="text-green-600 mb-4" size={32} />
+            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-[#78be20]">
+              <Briefcase className="text-[#78be20] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Empleo y Desarrollo
               </h3>
@@ -182,8 +182,8 @@ export default function EjesDeGobiernoPage() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-600">
-              <Heart className="text-green-600 mb-4" size={32} />
+            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-[#78be20]">
+              <Heart className="text-[#78be20] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Asistencia Social
               </h3>
@@ -204,7 +204,7 @@ export default function EjesDeGobiernoPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <div className="flex items-center mb-6">
-                <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mr-4">
+                <div className="bg-[#68578d] w-16 h-16 rounded-full flex items-center justify-center mr-4">
                   <Lightbulb className="text-white" size={32} />
                 </div>
                 <h2 className="font-montserrat-black-italic text-4xl md:text-5xl text-gray-900">
@@ -230,7 +230,7 @@ export default function EjesDeGobiernoPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Smartphone className="text-purple-600 mb-4" size={32} />
+              <Smartphone className="text-[#68578d] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Gobierno Digital
               </h3>
@@ -243,7 +243,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Car className="text-purple-600 mb-4" size={32} />
+              <Car className="text-[#68578d] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Movilidad Inteligente
               </h3>
@@ -256,7 +256,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <Shield className="text-purple-600 mb-4" size={32} />
+              <Shield className="text-[#68578d] mb-4" size={32} />
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
                 Seguridad Tecnológica
               </h3>
@@ -368,7 +368,7 @@ export default function EjesDeGobiernoPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="bg-blue-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+              <div className="bg-[#00a7e7] text-white px-4 py-2 rounded-full inline-block mb-4">
                 <span className="font-geist-bold">Año 1</span>
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-4">
@@ -383,7 +383,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="bg-green-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+              <div className="bg-[#78be20] text-white px-4 py-2 rounded-full inline-block mb-4">
                 <span className="font-geist-bold">Año 2</span>
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-4">
@@ -398,7 +398,7 @@ export default function EjesDeGobiernoPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="bg-purple-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+              <div className="bg-[#68578d] text-white px-4 py-2 rounded-full inline-block mb-4">
                 <span className="font-geist-bold">Año 3</span>
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-4">

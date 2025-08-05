@@ -88,7 +88,7 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 rounded-xl bg-blue-50 hover:bg-blue-100 transition-colors duration-200">
-              <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#00a7e7] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Building className="text-white" size={32} />
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
@@ -101,7 +101,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center p-6 rounded-xl bg-green-50 hover:bg-green-100 transition-colors duration-200">
-              <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#78be20] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="text-white" size={32} />
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
@@ -114,7 +114,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center p-6 rounded-xl bg-purple-50 hover:bg-purple-100 transition-colors duration-200">
-              <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#68578d] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Lightbulb className="text-white" size={32} />
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
@@ -127,7 +127,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center p-6 rounded-xl bg-red-50 hover:bg-red-100 transition-colors duration-200">
-              <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#da291c] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="text-white" size={32} />
               </div>
               <h3 className="font-geist-bold text-xl text-gray-900 mb-3">
@@ -162,15 +162,25 @@ export default function HomePage() {
             Tu opinión es importante. Contactanos para compartir tus ideas,
             inquietudes o propuestas para nuestra ciudad.
           </p>
-          <a
-            href="https://www.bit.ly/VamosCtesCapital"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-secondary inline-flex items-center text-lg px-8 py-4"
-          >
-            Sumate al proyecto
-            <ArrowRight className="ml-2" size={24} />
-          </a>
+          <div>
+            <a
+              href="https://www.bit.ly/VamosCtesCapital"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary inline-flex items-center text-lg px-8 py-4"
+            >
+              Sumate al proyecto
+              <ArrowRight className="ml-2" size={24} />
+            </a>
+            <Image
+              src="/img/form-qr.png"
+              alt="QR Formulario"
+              width={500}
+              height={500}
+              className="inline-flex items-center rounded-xl w-60 px-8 py-4 mx-10"
+              priority
+            />
+          </div>
         </div>
       </section>
     </>

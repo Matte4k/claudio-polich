@@ -190,11 +190,11 @@ export default function SobreMiPage() {
             {/* Timeline Item 1 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <div className="bg-blue-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+                <div className="bg-[#00a7e7] text-white px-4 py-2 rounded-full inline-block mb-4">
                   <span className="font-geist-bold">2005</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
-                  Primeros pasos en la política
+                  Director de Transporte de la Provincia
                 </h3>
                 <p className="font-geist-medium text-gray-600 mb-4">
                   Comencé mi carrera política como Director de Transporte de la
@@ -229,7 +229,7 @@ export default function SobreMiPage() {
                 />
               </div>
               <div>
-                <div className="bg-green-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+                <div className="bg-[#78be20] text-white px-4 py-2 rounded-full inline-block mb-4">
                   <span className="font-geist-bold">2005 - 2013</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
@@ -257,7 +257,7 @@ export default function SobreMiPage() {
             {/* Timeline Item 3 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <div className="bg-purple-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+                <div className="bg-[#68578d] text-white px-4 py-2 rounded-full inline-block mb-4">
                   <span className="font-geist-bold">2014 - 2019</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
@@ -299,7 +299,7 @@ export default function SobreMiPage() {
                 />
               </div>
               <div>
-                <div className="bg-red-600 text-white px-4 py-2 rounded-full inline-block mb-4">
+                <div className="bg-[#da291c] text-white px-4 py-2 rounded-full inline-block mb-4">
                   <span className="font-geist-bold">2019 - 2025</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">
@@ -327,7 +327,7 @@ export default function SobreMiPage() {
             {/* Timeline Item 5 */}
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <div className="bg-amber-500 text-white px-4 py-2 rounded-full inline-block mb-4">
+                <div className="bg-[#ffc72c] text-white px-4 py-2 rounded-full inline-block mb-4">
                   <span className="font-geist-bold">2022 - 2025</span>
                 </div>
                 <h3 className="font-geist-bold text-2xl text-gray-900 mb-4">

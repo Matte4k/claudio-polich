@@ -76,10 +76,10 @@
   }
 
   .btn-primary {
-    @apply bg-red-600 hover:bg-red-700 text-white font-geist-bold px-6 py-3 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl;
+    @apply bg-[#da291c] hover:bg-red-700 text-white font-geist-bold px-6 py-3 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl;
   }
 
   .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-red-600 border-2 border-red-600 font-geist-bold px-6 py-3 rounded-lg transition-colors duration-200;
+    @apply bg-white hover:bg-gray-50 text-[#da291c] border-2 border-[#da291c] font-geist-bold px-6 py-3 rounded-lg transition-colors duration-200 hover:shadow-xl;
   }
 }

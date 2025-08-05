@@ -47,6 +47,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={`${montserrat.variable} ${geist.variable}`}>
+      <meta
+        name="google-site-verification"
+        content="DMvvnOhA-EpU0JE2tMu71bQI4IATdTsEC-Zmgj1moZE"
+      />
       <body
         className="font-geist-medium antialiased bg-white"
         suppressHydrationWarning={true}

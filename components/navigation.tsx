@@ -13,7 +13,7 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="font-montserrat-black-italic text-3xl text-gray-700">
+              <span className="font-montserrat-black-italic text-4xl text-gray-700">
                 Claudio Polich
               </span>
             </Link>
@@ -23,19 +23,19 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className="font-geist-medium text-gray-700 hover:text-red-600 transition-colors"
+              className="font-geist-medium text-gray-700 hover:text-[#da291c] transition-colors"
             >
               Inicio
             </Link>
             <Link
               href="/sobre-mi"
-              className="font-geist-medium text-gray-700 hover:text-red-600 transition-colors"
+              className="font-geist-medium text-gray-700 hover:text-[#da291c] transition-colors"
             >
               Sobre Mi
             </Link>
             <Link
               href="/mis-propuestas"
-              className="font-geist-medium text-gray-700 hover:text-red-600 transition-colors"
+              className="font-geist-medium text-gray-700 hover:text-[#da291c] transition-colors"
             >
               Mis Propuestas
             </Link>
@@ -53,7 +53,7 @@ export default function Navigation() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-red-600 focus:outline-none focus:text-red-600"
+              className="text-gray-700 hover:text-[#da291c] focus:outline-none focus:text-[#da291c]"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -67,21 +67,21 @@ export default function Navigation() {
           <div className="px-2 pt-4 pb-3 sm:px-3 bg-white border-t">
             <Link
               href="/"
-              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-red-600"
+              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-[#da291c]"
               onClick={() => setIsOpen(false)}
             >
               Inicio
             </Link>
             <Link
               href="/sobre-mi"
-              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-red-600"
+              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-[#da291c]"
               onClick={() => setIsOpen(false)}
             >
               Sobre Mi
             </Link>
             <Link
               href="/mis-propuestas"
-              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-red-600"
+              className="block px-3 py-2 font-geist-medium text-gray-700 hover:text-[#da291c]"
               onClick={() => setIsOpen(false)}
             >
               Mis Propuestas
